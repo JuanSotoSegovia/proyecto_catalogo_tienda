@@ -32,12 +32,16 @@ public class Pag_Vendedores extends AppCompatActivity {
                 break;
             }
         }
-
-        //vendedor.setText(vend);
     }
 
     public void stock (View view){
+        Bundle bun =getIntent().getExtras();
+        String vend =bun.getString("loginVendedor");
+
         Intent i = new Intent(this, Stock_Vendedores.class);
+        Bundle bund = new Bundle();
+        bund.putString("vender", vend);
+        i.putExtras(bund);
         startActivity(i);
     }
 }

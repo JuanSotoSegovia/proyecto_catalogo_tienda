@@ -21,7 +21,7 @@
             android:background="@drawable/gradiant2">
 
             <TextView
-                android:id="@+id/txt_nomVendedor"
+                android:id="@+id/txt_nomVendedorStock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
@@ -61,14 +61,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="10dp"
-                android:text="Login."
+                android:text="Stock."
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txt_cargoVen"
+                android:id="@+id/txt_cargoVenStock"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
@@ -79,7 +79,7 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_nomVendedor" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_nomVendedorStock" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
