@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Stock_Vendedores">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView19"
         android:layout_width="410dp"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -20,41 +21,65 @@
             android:background="@drawable/gradiant2">
 
             <TextView
-                android:id="@+id/txt_nombreCatEsca"
+                android:id="@+id/txt_nomVendedor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
-                android:text="Esperando nombre del vendedor..."
+                android:layout_marginTop="2dp"
+                android:text="Esperando nombre de vendedor..."
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <ImageView
+                android:id="@+id/ws_admin"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="37dp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.483" />
+                app:srcCompat="@drawable/logowha" />
 
             <TextView
-                android:id="@+id/textView25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:layout_marginEnd="1dp"
+                android:id="@+id/textView23"
+                android:layout_width="58dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="10dp"
                 android:text="Contactar Grupo."
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="10dp"
+                android:text="Login."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/ws_grupoVende"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_marginEnd="28dp"
+            <TextView
+                android:id="@+id/txt_cargoVen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="8dp"
+                android:text="Esperando cargo vendedor..."
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/logowha" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nomVendedor" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
@@ -63,7 +88,8 @@
         android:id="@+id/cardView48"
         android:layout_width="355dp"
         android:layout_height="260dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView19">
@@ -71,6 +97,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/white"
             android:fillViewport="true"
             tools:ignore="SpeakableTextPresentCheck">
 
@@ -85,8 +112,9 @@
         android:id="@+id/cardView49"
         android:layout_width="355dp"
         android:layout_height="260dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="81dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="74dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,6 +123,7 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/white"
             android:fillViewport="true"
             tools:ignore="SpeakableTextPresentCheck">
 
@@ -110,10 +139,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="5dp"
         android:text="STOCK PROPIO."
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/cardView48"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView19" />
 
@@ -122,6 +155,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
         android:text="STOCK TOTAL."
         android:textColor="@color/black"
         android:textStyle="bold"
