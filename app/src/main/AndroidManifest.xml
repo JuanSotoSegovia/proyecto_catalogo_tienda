@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.catalogo_js_cars_style">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Catalogo_JS_Cars_Style">
+        <activity
+            android:name=".Stock_Vendedores"
+            android:exported="true" />
+        <activity
+            android:name=".Pag_Vendedores"
+            android:exported="true" />
+        <activity
+            android:name=".loginVendedor.Login"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.cat_iluinacion_v2"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.cat_exterior_v2"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.escape.cat_escape_v2"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte9_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte8_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte7_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte6_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte5_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte4_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte3_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte2_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.exterior.productos.ProductExte1_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.top_tendencias.Top_Tendencias"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.escape.productos.ProductEsca4_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.escape.productos.ProductEsca3_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.escape.productos.ProductEsca2_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.escape.productos.ProductEsca1_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.reparaciones.productos.ProductRep1_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.ProducIlum7_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.ProductIlum5_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.ProductIlum6_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.Product4_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.reparaciones.Cat_Reparaciones"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.Produc3_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.Product2_info"
+            android:exported="true" />
+        <activity
+            android:name=".categorias.iluminacion.productos.Product1_info"
+            android:exported="true" />
+        <activity
+            android:name=".inicio.Menu_Apart"
+            android:exported="true" />
+        <activity
+            android:name=".inicio.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

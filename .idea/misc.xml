@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/drawable/gradiant.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/drawable/gradiant2.xml" value="0.2203125" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_escape.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_escape_pag2.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_escape_pagi2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_escape_v2.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_pag1.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_pag2.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_pag3.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_v2.xml" value="0.2538860103626943" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_ilimunacion.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_iluinacion_v2.xml" value="0.22" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_iluminacion_pag2.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_iluminacion_pag3.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_ilumincion_pag2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_reparaciones.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_todo.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_menu_apart.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_pag_vendedores.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_produc3_info.xml" value="0.22" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_produc_ilum7_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product1_info.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product2_info.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product4_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_esca1_info.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_esca2_info.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_esca3_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_esca4_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_esca4_info2.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte1_info.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte2_info.xml" value="0.25" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte3_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte4_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte5_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte6_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte7_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte8_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_exte9_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_ilum5_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_ilum6_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_ilum7_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_product_rep1_info.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_producto_info.xml" value="0.22" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_stock_vendedores.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_top_tendencias.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
