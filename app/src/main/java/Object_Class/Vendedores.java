@@ -3,10 +3,10 @@ package Object_Class;
 public class Vendedores {
 
     private int[] ids = {1};
-    private String[] usuarios = {"Juan"};
-    private String[] passwords = {"Juan123"};
+    private String[] usuarios = {"Juan","Claudia","Cristobal"};
+    private String[] passwords = {"Juan123","Clau21","Cris21"};
 
-    private String[] nombreApe = {"Juan Soto"};
+    private String[] nombreApe = {"Juan Soto","Claudia Prado","Cristobal Cerda"};
 
     public Vendedores(){
 
