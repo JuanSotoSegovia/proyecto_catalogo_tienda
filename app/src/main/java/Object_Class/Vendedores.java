@@ -2,21 +2,23 @@ package Object_Class;
 
 public class Vendedores {
 
-    private int[] ids = {1};
+    private int[] ids = {1,2,3};
     private String[] usuarios = {"Juan","Claudia","Cristobal"};
-    private String[] passwords = {"Juan123","Clau21","Cris123"};
+    private String[] passwords = {"Juan123","Clau21","Cris21"};
 
     private String[] nombreApe = {"Juan Soto","Claudia Prado","Cristobal Cerda"};
+    private String[] cargo = {"Administrador","Vendedora","Vendedor"};
 
     public Vendedores(){
 
     }
 
-    public Vendedores(int[] ids, String[] usuarios, String[] passwords, String[] nombreApe) {
+    public Vendedores(int[] ids, String[] usuarios, String[] passwords, String[] nombreApe, String[] cargo) {
         this.ids = ids;
         this.usuarios = usuarios;
         this.passwords = passwords;
         this.nombreApe = nombreApe;
+        this.cargo = cargo;
     }
 
     public int[] getIds() {
@@ -49,5 +51,13 @@ public class Vendedores {
 
     public void setNombreApe(String[] nombreApe) {
         this.nombreApe = nombreApe;
+    }
+
+    public String[] getCargo() {
+        return cargo;
+    }
+
+    public void setCargo(String[] cargo) {
+        this.cargo = cargo;
     }
 }
