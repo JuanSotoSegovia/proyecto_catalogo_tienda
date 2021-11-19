@@ -44,4 +44,15 @@ public class Pag_Vendedores extends AppCompatActivity {
         i.putExtras(bund);
         startActivity(i);
     }
+
+    public void caja (View view){
+        Bundle bun =getIntent().getExtras();
+        String vend =bun.getString("loginVendedor");
+
+        Intent i = new Intent(this, caja_vendedores.class);
+        Bundle bund = new Bundle();
+        bund.putString("vender", vend);
+        i.putExtras(bund);
+        startActivity(i);
+    }
 }

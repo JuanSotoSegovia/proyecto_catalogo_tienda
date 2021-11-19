@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.example.catalogo_js_cars_style.Pag_Vendedores;
 import com.example.catalogo_js_cars_style.R;
 import com.example.catalogo_js_cars_style.inicio.MainActivity;
+import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
 
 import Object_Class.Vendedores;
 
@@ -84,6 +85,11 @@ public class Login extends AppCompatActivity {
             for(int i = 0; i <= vendedor.getIds().length; i++){
                 try {
                     if(usuario.equals(vendedor.getUsuarios()[i]) && contraseña.equals(vendedor.getPasswords()[i])){
+                        if (vendedor.getCargo()[i].equals("Administrador")){
+                            Intent inte = new Intent(getBaseContext(), Menu_Apart.class);
+                            startActivity(inte);
+                            break;
+                        }
                         Intent intent = new Intent(getBaseContext(), Pag_Vendedores.class);
                         user.setText("");
                         pass.setText("");
