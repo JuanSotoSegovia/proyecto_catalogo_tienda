@@ -2,6 +2,7 @@ package com.example.catalogo_js_cars_style;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -33,7 +34,13 @@ public class caja_vendedores extends AppCompatActivity {
         //inicio video automatico
         videoCaja.start();
 
-        
+        //loop para reproducir el video.
+        videoCaja.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                mediaPlayer.setLooping(true);
+            }
+        });
 
         Bundle bun =getIntent().getExtras();
         String vend =bun.getString("vender");
