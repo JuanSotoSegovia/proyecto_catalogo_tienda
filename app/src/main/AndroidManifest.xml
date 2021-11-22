@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Catalogo_JS_Cars_Style">
         <activity
-            android:name=".caja_vendedores"
+            android:name=".Pag_Admin"
             android:exported="true" />
         <activity
-            android:name=".Stock_Vendedores"
+            android:name=".Vendedores.caja_vendedores"
             android:exported="true" />
         <activity
-            android:name=".Pag_Vendedores"
+            android:name=".Vendedores.Stock_Vendedores"
+            android:exported="true" />
+        <activity
+            android:name=".Vendedores.Pag_Vendedores"
             android:exported="true" />
         <activity
             android:name=".loginVendedor.Login"

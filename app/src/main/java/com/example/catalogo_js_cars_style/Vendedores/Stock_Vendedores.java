@@ -1,9 +1,11 @@
-package com.example.catalogo_js_cars_style;
+package com.example.catalogo_js_cars_style.Vendedores;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.catalogo_js_cars_style.R;
 
 import Object_Class.Vendedores;
 

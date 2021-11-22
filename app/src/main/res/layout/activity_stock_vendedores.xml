@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".Stock_Vendedores">
+    tools:context=".Vendedores.Stock_Vendedores">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView19"
-        android:layout_width="410dp"
+        android:layout_width="0dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +49,7 @@
                 android:layout_marginEnd="28dp"
                 android:layout_marginBottom="10dp"
                 android:text="Contactar Grupo."
+                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -86,10 +87,14 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView48"
-        android:layout_width="355dp"
-        android:layout_height="260dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="28dp"
         android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cardView49"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView19">
@@ -110,10 +115,11 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView49"
-        android:layout_width="355dp"
-        android:layout_height="260dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="74dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="70dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -139,14 +145,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="279dp"
-        android:layout_marginBottom="5dp"
         android:text="STOCK PROPIO."
         android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/cardView48"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView19" />
 
@@ -155,8 +157,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:text="STOCK TOTAL."
         android:textColor="@color/black"
         android:textStyle="bold"

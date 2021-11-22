@@ -10,11 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.catalogo_js_cars_style.Pag_Vendedores;
+import com.example.catalogo_js_cars_style.Pag_Admin;
+import com.example.catalogo_js_cars_style.Vendedores.Pag_Vendedores;
 import com.example.catalogo_js_cars_style.R;
-import com.example.catalogo_js_cars_style.inicio.MainActivity;
 import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
 
 import Object_Class.Vendedores;
@@ -86,7 +85,14 @@ public class Login extends AppCompatActivity {
                 try {
                     if(usuario.equals(vendedor.getUsuarios()[i]) && contraseña.equals(vendedor.getPasswords()[i])){
                         if (vendedor.getCargo()[i].equals("Administrador")){
-                            Intent inte = new Intent(getBaseContext(), Menu_Apart.class);
+                            Intent inte = new Intent(getBaseContext(), Pag_Admin.class);
+                            user.setText("");
+                            pass.setText("");
+                            error.setText("");
+                            Bundle bun = new Bundle();
+                            bun.putString("loginVendedor", usuario);
+                            inte.putExtras(bun);
+                            bar.setVisibility(View.INVISIBLE);
                             startActivity(inte);
                             break;
                         }
