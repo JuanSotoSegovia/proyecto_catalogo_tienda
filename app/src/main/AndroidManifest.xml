@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Catalogo_JS_Cars_Style">
         <activity
+            android:name=".product_ilum8_info"
+            android:exported="true" />
+        <activity
+            android:name=".product_exte10_info"
+            android:exported="true" />
+        <activity
             android:name=".Carrito_compras"
             android:exported="true" />
         <activity
