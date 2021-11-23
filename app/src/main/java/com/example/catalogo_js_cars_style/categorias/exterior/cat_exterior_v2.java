@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.catalogo_js_cars_style.Carrito_compras;
 import com.example.catalogo_js_cars_style.R;
 import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductExte1_info;
 import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductExte2_info;
@@ -29,7 +30,7 @@ public class cat_exterior_v2 extends AppCompatActivity {
             txt_nombreExt4, txt_nombreExt5, txt_nombreExt6, txt_precioExt4, txt_precioExt5, txt_precioExt6,
             txt_nombreExt7, txt_nombreExt8, txt_nombreExt9, txt_precioExt7, txt_precioExt8, txt_precioExt9,
             txt_nomCatGlobalPag1;
-    private Button btt_menuPag1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -130,6 +131,11 @@ public class cat_exterior_v2 extends AppCompatActivity {
 
     public void abrirExteriorPro9(View view){
         Intent i = new Intent(this, ProductExte9_info.class);
+        startActivity(i);
+    }
+
+    public void carrito(View view){
+        Intent i = new Intent(this, Carrito_compras.class);
         startActivity(i);
     }
 }

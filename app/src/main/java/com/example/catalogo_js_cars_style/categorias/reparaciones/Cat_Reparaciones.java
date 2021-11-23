@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.catalogo_js_cars_style.Carrito_compras;
 import com.example.catalogo_js_cars_style.R;
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.Product1_info;
 import com.example.catalogo_js_cars_style.categorias.reparaciones.productos.ProductRep1_info;
@@ -20,7 +21,6 @@ import Object_Class.Reparaciones;
 public class Cat_Reparaciones extends AppCompatActivity {
 
     private TextView txt_nombreRep1,txt_precioRep1,txt_nomCatGlobal;
-    private Button btt_menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,6 @@ public class Cat_Reparaciones extends AppCompatActivity {
         txt_precioRep1 = (TextView)findViewById(R.id.txt_reparacionesPrecioProduct1);
 
         txt_nomCatGlobal = (TextView)findViewById(R.id.txt_nomCatGlobalRepa);
-        btt_menu = (Button)findViewById(R.id.btt_menuRepa);
 
         Reparaciones obj_rep = new Reparaciones();
         Categorias obj_cat = new Categorias();
@@ -50,6 +49,11 @@ public class Cat_Reparaciones extends AppCompatActivity {
 
     public void abrirProdReparaciones1(View view){
         Intent i = new Intent(this, ProductRep1_info.class);
+        startActivity(i);
+    }
+
+    public void carrito(View view){
+        Intent i = new Intent(this, Carrito_compras.class);
         startActivity(i);
     }
 }

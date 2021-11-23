@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView19"
-        android:layout_width="410dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,28 +33,38 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.483" />
 
-            <Button
-                android:id="@+id/btt_menu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="0dp"
                 android:layout_marginEnd="28dp"
-                android:backgroundTint="@color/black"
+                android:minHeight="48dp"
                 android:onClick="bttMenu"
-                android:text="MENU"
-                android:textColor="@color/white"
-                app:cornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toEndOf="@+id/txt_nombreCatEsca"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0" />
+                app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+                app:tint="@color/black"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:onClick="carrito"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/carro"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.core.widget.NestedScrollView
-        android:layout_width="409dp"
-        android:layout_height="679dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,9 +82,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView5"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -100,8 +111,10 @@
                         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion1"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -137,9 +150,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -165,8 +179,10 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion2"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -203,9 +219,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView7"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -231,8 +248,10 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion3"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -269,9 +288,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView10"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -296,8 +316,10 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion4"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -333,9 +355,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView11"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -360,8 +383,10 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion5"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -398,9 +423,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView12"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -425,8 +451,10 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion6"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -462,9 +490,10 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView14"
-                android:layout_width="355dp"
+                android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -489,8 +518,10 @@
                         tools:ignore="SpeakableTextPresentCheck" />
 
                     <LinearLayout
-                        android:layout_width="176dp"
+                        android:layout_width="0dp"
                         android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
                         android:onClick="abrirProdIluminacion7"
                         android:orientation="vertical"
                         app:layout_constraintBottom_toBottomOf="parent"

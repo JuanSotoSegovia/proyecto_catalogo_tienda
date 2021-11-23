@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.catalogo_js_cars_style.Carrito_compras;
 import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductExte1_info;
 import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductExte2_info;
 import com.example.catalogo_js_cars_style.R;
@@ -70,6 +71,11 @@ public class Top_Tendencias extends AppCompatActivity {
 
     public void menu(View view){
         Intent i = new Intent(this, Menu_Apart.class);
+        startActivity(i);
+    }
+
+    public void carrito(View view){
+        Intent i = new Intent(this, Carrito_compras.class);
         startActivity(i);
     }
 }

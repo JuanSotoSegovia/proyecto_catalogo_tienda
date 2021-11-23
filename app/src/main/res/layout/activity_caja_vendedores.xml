@@ -9,7 +9,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView19"
-        android:layout_width="410dp"
+        android:layout_width="0dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +49,7 @@
                 android:layout_marginEnd="28dp"
                 android:layout_marginBottom="10dp"
                 android:text="Contactar Admin."
+                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="12sp"
                 android:textStyle="bold"
@@ -88,7 +89,7 @@
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="50dp"
         android:text="Venta en efectivo: Esperando valor en efectivo..."
         android:textColor="@color/black"
@@ -100,7 +101,7 @@
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="30dp"
         android:text="Venta en debito: Esperando valor en debito..."
         android:textColor="@color/black"
@@ -112,7 +113,7 @@
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="30dp"
         android:text="Venta Total: Esperndo total de ventas..."
         android:textColor="@color/black"
@@ -124,8 +125,20 @@
         android:id="@+id/vw_caja"
         android:layout_width="305dp"
         android:layout_height="155dp"
-        android:layout_marginTop="199dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:text="Comision: Esperando comision del vendedor..."
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView33" />
 

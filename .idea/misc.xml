@@ -14,7 +14,7 @@
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_pag1.xml" value="0.33" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_pag2.xml" value="0.33" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_pag3.xml" value="0.33" />
-        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_v2.xml" value="0.2538860103626943" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_exterior_v2.xml" value="0.33" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_ilimunacion.xml" value="0.33" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_iluinacion_v2.xml" value="0.22" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_cat_iluminacion_pag2.xml" value="0.33" />
@@ -26,7 +26,7 @@
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_menu_apart.xml" value="0.33" />
-        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_pag_admin.xml" value="0.22" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_pag_admin.xml" value="0.33" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_pag_vendedores.xml" value="0.25" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_produc3_info.xml" value="0.22" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_produc_ilum7_info.xml" value="0.20416666666666666" />
@@ -54,6 +54,7 @@
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_producto_info.xml" value="0.22" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_stock_vendedores.xml" value="0.25" />
         <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/activity_top_tendencias.xml" value="0.33" />
+        <entry key="..\:/Users/Dell/Desktop/proyectos android/Catalogo_JS_Cars_Style/app/src/main/res/layout/fragment_acciones_productos.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

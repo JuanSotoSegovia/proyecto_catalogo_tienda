@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.catalogo_js_cars_style.Carrito_compras;
 import com.example.catalogo_js_cars_style.R;
 import com.example.catalogo_js_cars_style.categorias.escape.productos.ProductEsca1_info;
 import com.example.catalogo_js_cars_style.categorias.escape.productos.ProductEsca2_info;
@@ -22,7 +23,7 @@ public class cat_escape_v2 extends AppCompatActivity {
 
     private TextView txt_nombreCat, txt_nombrePro1, txt_precioPro1, txt_nombrePro2, txt_precioPro2,
             txt_nombrePro3, txt_precioPro3,txt_nombrePro4, txt_precioPro4;
-    private Button btt_menu;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,8 +39,6 @@ public class cat_escape_v2 extends AppCompatActivity {
         txt_precioPro3 = (TextView)findViewById(R.id.txt_escaPrecProd3);
         txt_nombrePro4 = (TextView)findViewById(R.id.txt_escapNomPro4);
         txt_precioPro4 = (TextView)findViewById(R.id.txt_escaPrePro4);
-
-        btt_menu = (Button)findViewById(R.id.btt_menuEsca);
 
         Escape obj_esca = new Escape();
         Categorias obj_cat = new Categorias();
@@ -78,6 +77,11 @@ public class cat_escape_v2 extends AppCompatActivity {
 
     public void bttMenu(View view){
         Intent i = new Intent(this, Menu_Apart.class);
+        startActivity(i);
+    }
+
+    public void carrito(View view){
+        Intent i = new Intent(this, Carrito_compras.class);
         startActivity(i);
     }
 }

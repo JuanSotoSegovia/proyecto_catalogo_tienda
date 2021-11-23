@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Catalogo_JS_Cars_Style">
         <activity
+            android:name=".Carrito_compras"
+            android:exported="true" />
+        <activity
             android:name=".Pag_Admin"
             android:exported="true" />
         <activity
