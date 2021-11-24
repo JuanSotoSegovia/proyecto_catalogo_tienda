@@ -7,6 +7,7 @@ public class Iluminacion {
             "Ampolleta LED T10 modelo diamante.","Ampolleta LED T10 RGB + control remoto.","Cinta LED sobre puesta bi-funcional.",
             "Ojos de aguila LED.","Tercera luz de freno triangular.","Ampolleta halogena golden modelo H4."};
     private int[] precioIluminacion = {7000, 8000, 2000, 4500, 10000, 4500, 4500, 7000};
+    private int[] comision = {2400, 2640, 750, 1650, 2100, 1560, 1320, 2880, 2280};
     private String[] descripcionIluminacion = {"Ampolleta halogena golden, modelo 880, emision de luz golden (par).",
             "Ampolleta halogena golden, modelo 9006, emision de luz golden (par).", "Ampolleta LED T10, cola de pescado, modelo diamante, emisio de luz blanca (par).",
             "Ampolleta LED T10, cola de pescado RGB + control remoto para cambio de color.","Cinta LED para focos delanteros sobre puesta, bi-funcional, emision de luz blanca para posicion y luz amarilla para direccionales.",
@@ -18,12 +19,21 @@ public class Iluminacion {
 
     }
 
-    public Iluminacion(int[] id, String[] nombreIluminacion, int[] precioIluminacion, String[] descripcionIluminacion, int[] calificacion) {
+    public Iluminacion(int[] id, String[] nombreIluminacion, int[] precioIluminacion, int[] comision, String[] descripcionIluminacion, int[] calificacion) {
         this.id = id;
         this.nombreIluminacion = nombreIluminacion;
         this.precioIluminacion = precioIluminacion;
+        this.comision = comision;
         this.descripcionIluminacion = descripcionIluminacion;
         this.calificacion = calificacion;
+    }
+
+    public int[] getComision() {
+        return comision;
+    }
+
+    public void setComision(int[] comision) {
+        this.comision = comision;
     }
 
     public int[] getId() {

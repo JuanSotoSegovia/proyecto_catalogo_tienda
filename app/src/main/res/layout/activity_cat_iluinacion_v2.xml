@@ -151,7 +151,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardView6"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 app:cardCornerRadius="20dp"
@@ -204,6 +204,75 @@
 
                         <TextView
                             android:id="@+id/txt_iluminacionPrecioProduct2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando precio producto..."
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                app:cardCornerRadius="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView5">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradiant2"
+                    android:onClick="abrirProdIluminacion8">
+
+                    <ImageView
+                        android:id="@+id/img_iluminacion8"
+                        android:layout_width="143dp"
+                        android:layout_height="143dp"
+                        android:layout_marginStart="16dp"
+                        android:onClick="abrirProdIluminacion8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.571"
+                        app:srcCompat="@drawable/halogenagoldenh4"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="91dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:onClick="abrirProdIluminacion8"
+                        android:orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/img_iluminacion8"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/txt_iluminacionNombreProduc8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Esperando nombre producto..."
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tv8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/txt_iluminacionPrecioProduct8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Esperando precio producto..."

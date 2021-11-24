@@ -20,6 +20,7 @@ import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductE
 import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductExte8_info;
 import com.example.catalogo_js_cars_style.categorias.exterior.productos.ProductExte9_info;
 import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
+import com.example.catalogo_js_cars_style.product_exte10_info;
 
 import Object_Class.Categorias;
 import Object_Class.Exterior;
@@ -29,7 +30,7 @@ public class cat_exterior_v2 extends AppCompatActivity {
     private TextView txt_nombreExt1, txt_nombreExt2, txt_nombreExt3, txt_precioExt1, txt_precioExt2, txt_precioExt3,
             txt_nombreExt4, txt_nombreExt5, txt_nombreExt6, txt_precioExt4, txt_precioExt5, txt_precioExt6,
             txt_nombreExt7, txt_nombreExt8, txt_nombreExt9, txt_precioExt7, txt_precioExt8, txt_precioExt9,
-            txt_nomCatGlobalPag1;
+            txt_nomCatGlobalPag1, txt_nombreExt10, txt_precioExt10;
 
 
     @Override
@@ -57,6 +58,8 @@ public class cat_exterior_v2 extends AppCompatActivity {
         txt_precioExt8 = (TextView)findViewById(R.id.txt_precioExtPro8);
         txt_nombreExt9 = (TextView)findViewById(R.id.txt_nobreExtPro9);
         txt_precioExt9 = (TextView)findViewById(R.id.txt_precioExtPro9);
+        txt_nombreExt10 = (TextView)findViewById(R.id.txt_nobreExtPro10);
+        txt_precioExt10 = (TextView)findViewById(R.id.txt_precioExtPro10);
 
         Categorias obj_cat = new Categorias();
 
@@ -82,6 +85,8 @@ public class cat_exterior_v2 extends AppCompatActivity {
         txt_precioExt8.setText("$" + obj_ext.getPrecioExterior()[7] + " / $" + obj_ext.getPrecioPackExterior()[0]);
         txt_nombreExt9.setText(obj_ext.getNombreExterior()[8]);
         txt_precioExt9.setText("$" + obj_ext.getPrecioExterior()[8]);
+        txt_nombreExt10.setText(obj_ext.getNombreExterior()[9]);
+        txt_precioExt10.setText("$" + obj_ext.getPrecioExterior()[9]);
     }
 
     public void bttMenu(View view){
@@ -131,6 +136,11 @@ public class cat_exterior_v2 extends AppCompatActivity {
 
     public void abrirExteriorPro9(View view){
         Intent i = new Intent(this, ProductExte9_info.class);
+        startActivity(i);
+    }
+
+    public void abrirExteriorPro10(View view){
+        Intent i = new Intent(this, product_exte10_info.class);
         startActivity(i);
     }
 

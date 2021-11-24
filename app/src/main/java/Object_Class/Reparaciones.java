@@ -5,6 +5,7 @@ public class Reparaciones {
     private int[] id = {21};
     private String[] nombreReparaciones = {"Kit cierre centralizado 4 puertas."};
     private int[] precioReparaciones = {10000};
+    private int[] comsion = {1800};
     private String[] detalleReparaciones = {"Kit cierre centralizado para 4 puertas."};
     private int[] calificacion = {5};
 
@@ -12,10 +13,11 @@ public class Reparaciones {
 
     }
 
-    public Reparaciones(int[] id, String[] nombreReparaciones, int[] precioReparaciones, String[] detalleReparaciones, int[] calificacion) {
+    public Reparaciones(int[] id, String[] nombreReparaciones, int[] precioReparaciones, int[] comsion, String[] detalleReparaciones, int[] calificacion) {
         this.id = id;
         this.nombreReparaciones = nombreReparaciones;
         this.precioReparaciones = precioReparaciones;
+        this.comsion = comsion;
         this.detalleReparaciones = detalleReparaciones;
         this.calificacion = calificacion;
     }
@@ -58,5 +60,13 @@ public class Reparaciones {
 
     public void setCalificacion(int[] calificacion) {
         this.calificacion = calificacion;
+    }
+
+    public int[] getComsion() {
+        return comsion;
+    }
+
+    public void setComsion(int[] comsion) {
+        this.comsion = comsion;
     }
 }

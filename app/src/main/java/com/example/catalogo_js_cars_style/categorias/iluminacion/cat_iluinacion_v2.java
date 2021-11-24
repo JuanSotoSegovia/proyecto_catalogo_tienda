@@ -18,6 +18,7 @@ import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.Produ
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.ProductIlum5_info;
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.ProductIlum6_info;
 import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
+import com.example.catalogo_js_cars_style.product_ilum8_info;
 
 import Object_Class.Categorias;
 import Object_Class.Iluminacion;
@@ -26,7 +27,7 @@ public class cat_iluinacion_v2 extends AppCompatActivity {
 
     private TextView txt_nombreIlu1, txt_nombreIlu2, txt_nombreIlu3, txt_precioIlu1, txt_precioIlu2, txt_precioIlu3,
             txt_nombreIlu4, txt_nombreIlu5, txt_nombreIlu6, txt_precioIlu4, txt_precioIlu5, txt_precioIlu6,
-            txt_nombreIlu7, txt_precioIlu7, txt_nomCatGlobal;
+            txt_nombreIlu7, txt_precioIlu7, txt_nomCatGlobal, txt_nombreIlu8, txt_precioIlu8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +48,8 @@ public class cat_iluinacion_v2 extends AppCompatActivity {
         txt_precioIlu6 = (TextView)findViewById(R.id.txt_iluminacionPrecioProduct6);
         txt_nombreIlu7 = (TextView)findViewById(R.id.txt_iluminacionNombreProduc7);
         txt_precioIlu7 = (TextView)findViewById(R.id.txt_iluminacionPrecioProduct7);
+        txt_nombreIlu8 = (TextView)findViewById(R.id.txt_iluminacionNombreProduc8);
+        txt_precioIlu8 = (TextView)findViewById(R.id.txt_iluminacionPrecioProduct8);
 
         txt_nomCatGlobal = (TextView)findViewById(R.id.txt_nomCatGlobal);
 
@@ -69,6 +72,8 @@ public class cat_iluinacion_v2 extends AppCompatActivity {
         txt_precioIlu6.setText("$"+obj_ilu.getPrecioIluminacion()[5]);
         txt_nombreIlu7.setText(obj_ilu.getNombreIluminacion()[6]);
         txt_precioIlu7.setText("$"+obj_ilu.getPrecioIluminacion()[6]);
+        txt_nombreIlu8.setText(obj_ilu.getNombreIluminacion()[7]);
+        txt_precioIlu8.setText("$"+obj_ilu.getPrecioIluminacion()[7]);
     }
 
     public void bttMenu(View view){
@@ -108,6 +113,11 @@ public class cat_iluinacion_v2 extends AppCompatActivity {
 
     public void abrirProdIluminacion7(View view){
         Intent i = new Intent(this, ProducIlum7_info.class);
+        startActivity(i);
+    }
+
+    public void abrirProdIluminacion8(View view){
+        Intent i = new Intent(this, product_ilum8_info.class);
         startActivity(i);
     }
 
