@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.catalogo_js_cars_style.Carrito_compras;
+import com.example.catalogo_js_cars_style.Lista_Deseos;
 import com.example.catalogo_js_cars_style.R;
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.Produc3_info;
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.ProducIlum7_info;
@@ -18,7 +17,7 @@ import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.Produ
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.ProductIlum5_info;
 import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.ProductIlum6_info;
 import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
-import com.example.catalogo_js_cars_style.product_ilum8_info;
+import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.product_ilum8_info;
 
 import Object_Class.Categorias;
 import Object_Class.Iluminacion;
@@ -122,7 +121,7 @@ public class cat_iluinacion_v2 extends AppCompatActivity {
     }
 
     public void carrito(View view){
-        Intent i = new Intent(this, Carrito_compras.class);
+        Intent i = new Intent(this, Lista_Deseos.class);
         startActivity(i);
     }
 }

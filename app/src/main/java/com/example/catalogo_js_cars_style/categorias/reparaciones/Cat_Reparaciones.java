@@ -5,17 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.catalogo_js_cars_style.Carrito_compras;
+import com.example.catalogo_js_cars_style.Lista_Deseos;
 import com.example.catalogo_js_cars_style.R;
-import com.example.catalogo_js_cars_style.categorias.iluminacion.productos.Product1_info;
 import com.example.catalogo_js_cars_style.categorias.reparaciones.productos.ProductRep1_info;
 import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
 
 import Object_Class.Categorias;
-import Object_Class.Iluminacion;
 import Object_Class.Reparaciones;
 
 public class Cat_Reparaciones extends AppCompatActivity {
@@ -53,7 +50,7 @@ public class Cat_Reparaciones extends AppCompatActivity {
     }
 
     public void carrito(View view){
-        Intent i = new Intent(this, Carrito_compras.class);
+        Intent i = new Intent(this, Lista_Deseos.class);
         startActivity(i);
     }
 }

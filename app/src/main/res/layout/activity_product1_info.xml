@@ -7,6 +7,19 @@
     android:background="@color/white"
     tools:context=".categorias.iluminacion.productos.Product1_info">
 
+    <Button
+        android:id="@+id/btt_agregar_pro1_ilu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:onClick="agregar"
+        android:text="AGREGAR A LISTA DE DESEOS"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView65" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView9"
         android:layout_width="365dp"
@@ -34,14 +47,13 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView65"
         android:layout_width="365dp"
         android:layout_height="198dp"
         app:cardCornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView9"
-        app:layout_constraintVertical_bias="0.393">
+        app:layout_constraintTop_toBottomOf="@+id/rtb_pro1_ilu">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -78,17 +90,43 @@
 
             <TextView
                 android:id="@+id/txt_descripIlu1"
-                android:layout_width="255dp"
+                android:layout_width="0dp"
                 android:layout_height="75dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="15dp"
                 android:text="Esperando descripcion producto..."
                 android:textColor="@color/black"
                 android:textSize="14sp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_precioIlu1"
-                app:layout_constraintVertical_bias="0.458" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_precioIlu1" />
+
+            <TextView
+                android:id="@+id/txt_stock_pro1_ilu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="142dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="165dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_descripIlu1" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
+    <RatingBar
+        android:id="@+id/rtb_pro1_ilu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView9"
+        tools:ignore="SpeakableTextPresentCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

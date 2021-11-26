@@ -11,10 +11,9 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.catalogo_js_cars_style.Pag_Admin;
+import com.example.catalogo_js_cars_style.admin.Pag_Admin;
 import com.example.catalogo_js_cars_style.Vendedores.Pag_Vendedores;
 import com.example.catalogo_js_cars_style.R;
-import com.example.catalogo_js_cars_style.inicio.Menu_Apart;
 
 import Object_Class.Vendedores;
 

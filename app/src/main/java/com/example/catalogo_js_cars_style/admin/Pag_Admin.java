@@ -1,37 +1,48 @@
-package com.example.catalogo_js_cars_style.Vendedores;
+package com.example.catalogo_js_cars_style.admin;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.catalogo_js_cars_style.DB.AdminSQLiteOpenHelper;
+import com.example.catalogo_js_cars_style.Ingreso_Stock;
+import com.example.catalogo_js_cars_style.Ingreso_venta;
 import com.example.catalogo_js_cars_style.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import Object_Class.Productos;
 import Object_Class.Vendedores;
 
-public class Stock_Vendedores extends AppCompatActivity {
+public class Pag_Admin extends AppCompatActivity {
 
-    private TextView vendedor, cargo,  tx_nompro1, tx_stockpro1,tx_nompro2, tx_stockpro2,tx_nompro3, tx_stockpro3,tx_nompro4, tx_stockpro4,
+    private TextView vendedor, cargo, tx_nompro1, tx_stockpro1,tx_nompro2, tx_stockpro2,tx_nompro3, tx_stockpro3,tx_nompro4, tx_stockpro4,
             tx_nompro5, tx_stockpro5,tx_nompro6, tx_stockpro6, tx_nompro7, tx_stockpro7,tx_nompro8, tx_stockpro8,
             tx_nompro9, tx_stockpro9,tx_nompro10, tx_stockpro10, tx_nompro11, tx_stockpro11,tx_nompro12, tx_stockpro12,tx_nompro13, tx_stockpro13,tx_nompro14, tx_stockpro14,
             tx_nompro15, tx_stockpro15,tx_nompro16, tx_stockpro16, tx_nompro17, tx_stockpro17,tx_nompro18, tx_stockpro18,
             tx_nompro19, tx_stockpro19,tx_nompro20, tx_stockpro20,tx_nompro21, tx_stockpro21,tx_nompro22, tx_stockpro22, tx_nompro23, tx_stockpro23;
-    ;
+
     Vendedores obj_ven = new Vendedores();
     Productos obj_pro = new Productos();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stock_vendedores);
+        setContentView(R.layout.activity_pag_admin);
 
-        vendedor = (TextView)findViewById(R.id.txt_nomVendedorStock);
-        cargo = (TextView)findViewById(R.id.txt_cargoVenStock);
+        vendedor = (TextView)findViewById(R.id.txt_nomVendedorAdmin);
+        cargo = (TextView)findViewById(R.id.txt_cargoVenAdmin);
 
         tx_nompro1 = (TextView)findViewById(R.id.tx_pro1);
         tx_stockpro1 = (TextView)findViewById(R.id.tx_stockPro1);
@@ -80,8 +91,10 @@ public class Stock_Vendedores extends AppCompatActivity {
         tx_nompro23 = (TextView)findViewById(R.id.tx_pro23);
         tx_stockpro23 = (TextView)findViewById(R.id.tx_stockPro23);
 
+
         Bundle bun =getIntent().getExtras();
-        String vend =bun.getString("vender");
+        String vend =bun.getString("loginVendedor");
+
 
         for (int i = 0 ; i <= obj_ven.getIds().length ; i++){
             if (vend.equals(obj_ven.getUsuarios()[i])){
@@ -90,7 +103,6 @@ public class Stock_Vendedores extends AppCompatActivity {
                 break;
             }
         }
-
 
         tx_nompro1.setText(obj_pro.getProducto()[0]);
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(getBaseContext(),"catalogoJ.S",null,1);
@@ -300,6 +312,9 @@ public class Stock_Vendedores extends AppCompatActivity {
         }else{
             tx_stockpro23.setText("producto sin stock.");
         }
+//------------------------------------------------
+
+
     }
 
     public void refrescarStock(View view){
@@ -511,5 +526,25 @@ public class Stock_Vendedores extends AppCompatActivity {
         }else{
             tx_stockpro23.setText("producto sin stock.");
         }
+    }
+
+    public void ingresoStock(View view){
+        Bundle bun =getIntent().getExtras();
+        String vend =bun.getString("loginVendedor");
+        Intent i = new Intent(getBaseContext(), Ingreso_Stock.class);
+        Bundle bund = new Bundle();
+        bund.putString("vender", vend);
+        i.putExtras(bund);
+        startActivity(i);
+    }
+
+    public void ingresoVenta(View view){
+        Bundle bun =getIntent().getExtras();
+        String vend =bun.getString("loginVendedor");
+        Intent i = new Intent(getBaseContext(), Ingreso_venta.class);
+        Bundle bund = new Bundle();
+        bund.putString("vender", vend);
+        i.putExtras(bund);
+        startActivity(i);
     }
 }

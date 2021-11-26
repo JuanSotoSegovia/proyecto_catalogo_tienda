@@ -5,10 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.catalogo_js_cars_style.Carrito_compras;
+import com.example.catalogo_js_cars_style.Lista_Deseos;
 import com.example.catalogo_js_cars_style.R;
 import com.example.catalogo_js_cars_style.categorias.escape.productos.ProductEsca1_info;
 import com.example.catalogo_js_cars_style.categorias.escape.productos.ProductEsca2_info;
@@ -81,7 +80,7 @@ public class cat_escape_v2 extends AppCompatActivity {
     }
 
     public void carrito(View view){
-        Intent i = new Intent(this, Carrito_compras.class);
+        Intent i = new Intent(this, Lista_Deseos.class);
         startActivity(i);
     }
 }

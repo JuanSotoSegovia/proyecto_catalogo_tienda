@@ -54,7 +54,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageView15"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/carro"
+                app:srcCompat="@android:drawable/star_big_on"
                 tools:ignore="SpeakableTextPresentCheck" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

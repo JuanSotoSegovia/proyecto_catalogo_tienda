@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Carrito_compras extends AppCompatActivity {
+public class Lista_Deseos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
