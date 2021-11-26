@@ -82,6 +82,7 @@ public class Ingreso_Stock extends AppCompatActivity {
                             Toast.makeText(getBaseContext(), "Ha ingresado Stock al producto: " + codigo + ". " + sp_pro.getSelectedItem().toString(), Toast.LENGTH_LONG).show();
                         }
                         else{
+
                             Toast.makeText(getBaseContext(), "Ingrese cantidad distinta a 0", Toast.LENGTH_LONG).show();
                         }
                     }
